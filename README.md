@@ -1,8 +1,7 @@
 # Metro Bus Simulator
-## -Introduction
-To put our concepts in practice, we have created a program for our semester project, which simulates route traversal of a bus on any given random path it has been provided. It has also been integrated into a visual interface, which helps us visualize the traversal in real-time. The program allows the user to customize the number of stations in the route, as well as to skip any single station if so desired. Upon confirmation of these parameters, the program generates a random path on the screen containing the stations and allows the bus to traverse forward and backward completely through the whole route.
 
-## -Methodology
+
+## -Introduction
 
 The program is divided into two different segments, the first segment contains specific functions which allow the program to create a route using a grid-based system and store its properties into a linked list. The second segment creates a vehicle object, which uses OOP concepts on the linked list to stop at stations and traverse the route efficiently.
 
@@ -16,7 +15,7 @@ After the traversal is complete, the program will automatically clear the route,
 - Tkinter
 ## Specifications
 Here is a brief specification of the route building part of the program:
-- i.	On creation of simulation window, the program creates a two-dimensional grid using nested for-looping technique. A grid point is placed after a certain number of pixels to keep spaces between vertices.
+- i.	Upon creating a simulation window, the program creates a two-dimensional grid using nested for-looping technique. A grid point is placed after a certain number of pixels to keep spaces between vertices.
 - ii.	An empty linked list is created, which takes 2 types of nodes (station, road).
 - iii.	The first station is created on the center of the grid to keep the route visually centered, however placing the first station anywhere else is still possible and will not break the program.
 - iv.	The number of roads between each station is completely modifiable, however it has been set to any random number between range 3 to 7, this random number is re-assigned after every station to produce variance.
@@ -53,5 +52,3 @@ Here is a brief specification of the route building part of the program:
 - Qalb-e-Ali
 - Syed Musaib Hussain
 - Muhammad Tayyab
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
