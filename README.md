@@ -10,7 +10,8 @@ Upon starting of program, the user is prompted with a menu where he/she can sele
 After the traversal is complete, the program will automatically clear the route, and return control to the user from the main menu.
 
 
-## -Libraries Used
+## -Languages and Tools Used
+- Python
 - [Graphics.py](https://mcsp.wartburg.edu/zelle/python/graphics.py)
 - Tkinter
 ## Specifications
